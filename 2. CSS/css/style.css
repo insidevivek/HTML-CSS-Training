@@ -1,0 +1,223 @@
+body {
+    margin: 0 auto;
+}
+
+/*CSS for main container*/
+
+.main-container {
+    overflow: hidden;
+    background-color: #1f2637;
+}
+.main-nav, footer {
+    background: #2f364a;
+    height: 37px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/* CSS for right menu */
+
+.right-menu {
+    color: white;
+}
+.right-menu ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.right-menu ul li {
+    display: inline-block;
+    float: left;
+    padding: 6px 20px;
+}
+.right-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS for profile */
+
+.right-menu ul li:last-child {
+    width: 98px;
+    height: 33px;
+    padding: 4px 2px 0 9px;
+    background-color: #15a4fa;
+}
+
+/* CSS for book container */
+
+.content {
+    width: 85%;
+    background: #eef1f7;
+    margin-top: -4px;
+}
+.content nav li a {
+    text-decoration: none;
+    color: #8c97b2;
+}
+.content nav li a:hover {
+    text-decoration: none;
+    color: white;
+    background: #97b3ce;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+/* CSS for left sidebar */
+
+.sidebar {
+    width: 15%;
+}
+.sidebar ul li {
+    color: #78829d;
+    list-style: none;
+    padding: 8px;
+}
+.sidebar section:not(:last-child) {
+    border-bottom: 2px solid #141824;
+}
+
+/* CSS for list */
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+.clearfix {
+    clear: both;
+}
+
+/* CSS for button */
+
+.add-button {
+    margin: 20px 33px;
+    background-color: #f2795a;
+    color: white;
+    border: none;
+    color: white;
+    padding: 8px 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.pad15 {
+    padding: 15px;
+}
+
+/* CSS for books */
+
+.book-container {
+    padding: 15px;
+    width: 100%;
+    height: 555px;
+    overflow: auto;
+    background: white;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+.books {
+    float: left;
+    width: 20%;
+}
+.book-head {
+    padding-left: 15px;
+}
+
+/* CSS for book description */
+
+.desc {
+    font-family: 'robotoblack';
+    font-size: 15px;
+}
+.desc p {
+    margin: 5px 0px;
+}
+.desc p span.icon-star-full {
+    color: orange;
+}
+
+/* CSS for search field */
+
+.search {
+    margin-right: 110px;
+}
+input[type="search"] {
+    border-radius: 30px;
+    width: 260px;
+    padding: 2px;
+}
+.nav-container {
+    padding: 10px;
+    height: auto;
+    overflow: auto;
+    margin-top: -5px;
+}
+.search {
+    position: relative;
+}
+.icon-search {
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+img.prof {
+    width: 27px;
+    margin-right: 5px;
+	vertical-align: bottom;
+}
+article::-webkit-scrollbar {
+    width: 6px;
+}
+article::-webkit-scrollbar-thumb {
+    background-color: #ccd5e4;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+.span-bullet {
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0 3px 0 0;
+}
+.bullet1 {
+    background-color: #d84963;
+}
+.bullet2 {
+    background-color: #ffab00;
+}
+.bullet3 {
+    background-color: #00bfdd;
+}
+.bullet4 {
+    background-color: #726fc5;
+}
+.bullet-list {
+    display: inline;
+}
+.book-type {
+    padding: 8px 0;
+}
+.book-sec-container {
+    height: auto;
+    overflow: auto;
+}
+footer {
+    background: #181e2c;
+}
+.icon-cog {
+    display: inline-block;
+    background: #15a4fa;
+    padding: 10.5px;
+}
+.icon-question {
+    display: inline-block;
+    padding: 10.5px;
+    background: #1f2637;
+}

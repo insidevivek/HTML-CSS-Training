@@ -1,0 +1,67 @@
+body {
+	margin: 0 auto;
+}
+
+/*CSS for main container*/
+.container-fluid {
+	background-color: #1f2637;
+}
+
+.header {
+    background: #2f364a;
+}
+
+.sidebar {
+    height: 100%;
+    clear: both;
+    background-color: #1f2637;
+    width: 15% !important;
+}
+
+.sidebar ul li {
+    color: #78829d;
+    list-style: none;
+}
+
+.sidebar section:not(:last-child) {
+    border-bottom: 2px solid #141824;
+}
+
+.add-button {
+    margin: 20px 33px;
+    background-color: #f2795a;
+    color: white;
+    border: none;
+    color: white;
+    padding: 8px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ .pull-right ul {
+    display: inline;
+    margin: 0;
+    padding: 4px;
+    float: left;
+}
+
+ .pull-right ul li {
+    display: inline-block;
+    float: left;
+    padding: 6px 20px;
+}
+ .pull-right ul li a{
+    color: white;
+    text-decoration: none;
+}
+.profile-name {
+    float: right;
+    background: red;
+    padding: 3px;
+    align-items: center;
+}
+.profile-name img {
+    vertical-align: middle;
+    border-radius: 50px;
+}

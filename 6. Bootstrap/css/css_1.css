@@ -1,0 +1,197 @@
+/*.main-nav {
+	background: #2f364a;
+	height: 37px;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* CSS for right menu */
+.right-menu {
+	margin-right: -64px;
+	color: white;
+}
+
+.right-menu ul {
+	display: inline;
+}
+
+.right-menu ul li {
+	list-style: none;
+    display: inline-block;
+    float: left;
+    margin-right: 25px; 
+    padding-top: 6px;
+}
+.right-menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+/* CSS for profile */
+.right-menu ul li:last-child {
+	width: 90px;
+	height: 33px;
+	padding: 4px 2px 0 9px;
+	background-color: #15a4fa;
+}
+
+/* CSS for book container */
+.content {
+	width: 85%;
+	background: #eef1f7;
+}
+
+.content nav li a {
+	text-decoration: none;
+    color: #8c97b2;
+}
+.content nav li a:hover {
+	text-decoration: none;
+    color: white;
+    background: #97b3ce;
+	border-radius: 20px;
+    padding: 3px;
+}
+
+/* CSS for left sidebar */
+.sidebar {
+	height: 100%;
+	clear: both;
+	background-color: #1f2637;
+	
+}
+
+.sidebar ul li {
+	color: #78829d;
+    list-style: none;
+}
+
+.sidebar section:not(:last-child) {
+	border-bottom: 2px solid #141824;
+}
+
+/* CSS for list */
+nav li {
+	list-style: none;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+
+.clearfix {
+	clear:  both;
+}
+
+/* CSS for button */
+.add-button {
+	margin: 20px 33px;
+	background-color: #f2795a;
+	color: white;
+    border: none;
+    color: white;
+    padding: 8px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.pad15 {
+	padding: 15px;
+}
+
+/* CSS for books */
+.books {
+	float: left;
+    margin-right: 5px;
+}
+
+.book-head {
+	padding-left: 15px;
+}
+
+
+/* CSS for book description */
+.desc {
+	font-family: 'robotoblack';
+	font-size: 15px;
+}
+.desc p{
+	margin: 5px 0px;
+}
+
+.desc p span.icon-star-full {
+	color: orange;
+}
+
+/* CSS for search field */
+.search {
+	margin-right: 110px;
+}
+
+input[type="search"] {
+	border-radius: 30px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .book-container {
+        height: auto;
+   		overflow: auto;
+    }
+    .books {
+    	margin-right: 75px;
+	    margin-left: 80px;
+	    width: 100%;
+    }
+    .book-img {
+    	float: left;
+    }
+    .desc {
+    	float: left;
+    	margin-left: 15px;
+    }
+
+    .sidebar {
+    	width: 26%;
+    }
+    .content {
+    	width: 74%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .book-container {
+        height: auto;
+   		overflow: auto;
+    }
+    .books {
+	    margin-right: 110px;
+	    margin-left: 20px;
+	    width: 13%;
+
+  	  margin-top: 20px;
+	}
+    .book-img {
+    	float: left;
+    }
+    .desc {
+    	float: left;
+    	margin-left: 15px;
+    }
+
+      .sidebar {
+    	width: 15%;
+    }
+    .content {
+    	width: 79%;
+    }
+}*/

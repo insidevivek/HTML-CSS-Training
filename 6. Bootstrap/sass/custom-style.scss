@@ -1,0 +1,224 @@
+$white: #fff;
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: $white;
+}
+.clearfix {
+    clear: both;
+}
+.left {
+    float: left;
+}
+.no-padding {
+    padding: 0;
+}
+.glow-header {
+    background-color: #2f364a;
+}
+.head-nav li {
+    @extend .left;
+    font-size: 13px;
+    list-style-type: none;
+    margin: 8px 13px 8px 0;
+    padding-left: 13px;
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+.prof-name {
+    align-items: center;
+    background: #15a4fa none repeat scroll 0 0;
+    color: $white;
+    display: flex;
+    float: right;
+    font-size: 13px;
+    padding: 0px 15px 3px;
+    img {
+        vertical-align: middle;
+        margin-right: 14px;
+        border-radius: 50px;
+    }
+    .fa {
+        margin-left: 5px;
+    }
+}
+
+
+ul li {
+    list-style-type: none;
+    a {
+        text-decoration: none;
+    }
+}
+.add-button {
+    background-color: #f2795a;
+    border: medium none;
+    border-radius: 6px;
+    color: $white;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 13px 19px 11px 18px;
+    text-align: center;
+}
+.sidebar {
+    background-color:#1f2637;
+    ul{
+        border-bottom: 3px solid #141824;
+        &:last-child {
+            border: none;
+        }
+    }
+    ul.button-container {
+        padding: 25px 0;
+    }
+    a {
+        color: #78829d;
+        display: block;
+        padding: 13px 20px;
+        text-align: left;
+        text-decoration: none;
+    }
+}
+.main-navigation {
+    a {
+        padding: 10px 45px;
+        display: block;
+        &:hover {
+            background-color:#15a4fa;
+            color: $white;
+        }
+    }
+    a.active {
+        background-color:#15a4fa;
+    }
+}
+.book-type {
+    padding: 0 17px;
+    li {
+        display: block;
+        margin: 18px 20px;
+        line-height: 18px;
+        &:before {
+            color: #e64c66;
+            content: "\2022";
+            position: relative;
+            left: 0px;
+            top: 0px;
+            padding-right: 10px;
+            font-size: 32px;
+        }
+        a {
+            padding: 0;
+            display: inline;
+            vertical-align: top;
+        }
+    }
+}
+.icon-star-full {
+    color: orange;
+}
+.search {
+    position: relative;
+    width: 35%;
+    .icon-search {
+        position: absolute;
+        top: 5px;
+        right: 12px;
+    }
+    input[type="search"] {
+        border-radius: 30px;
+        width: 100%;
+    }
+}
+.history p {
+    color: #78829d;
+    .fa {
+        margin-right: 5px;
+    }
+}
+.header-row {
+    background: #eef1f7;
+    li {
+        @extend .left;
+        list-style-type: none;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+.book-navigation {
+    padding:0;
+    li {
+        padding: 15px;
+        a{
+            color: #8c97b2;
+            &:hover {
+                background: #97b3ce ;
+                padding: 5px 10px;
+                border-radius: 30px;
+                color: $white;
+            }
+        }
+        a.active {
+            background: #97b3ce ;
+            padding: 5px 10px;
+            border-radius: 30px;
+            color: $white;
+        }
+    }
+}
+
+.img-content {
+    margin: 20px -14px 0 5px;
+    max-height: 600px;
+    overflow-y: auto;
+    img {
+      width: 85%;
+    }
+}
+
+footer {
+    background-color: #181e2c;
+    .help, .setting {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .help {
+        background-color: #1f2637;
+    }
+    .setting { 
+        background-color: #15a4fa;
+    }
+}
+/* Scroll bar */
+.img-content::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.img-content::-webkit-scrollbar-thumb {
+  background-color: #ccd5e4;
+  border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    
+}
+
+/* phone menu */
+.phone-menu {
+    margin-right: -11px;
+    .fa{
+        color: $white;
+        font-size: 18px;
+    }
+    .fa-search {
+        margin-right: -10px;
+    }
+}

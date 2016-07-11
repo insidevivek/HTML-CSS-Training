@@ -1,0 +1,389 @@
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+    /*************************
+*******Typography******
+**************************/
+    
+    @font-face {
+        font-family: 'open_sanslight';
+        src: url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'open_sansregular';
+        src: url('opensans-regular-webfont.woff2') format('woff2'), url('opensans-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        background: #fff none repeat scroll 0 0;
+        color: #4e4e4e;
+        font-family: "Open Sans", sans-serif;
+        line-height: 22px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: #c52d2f;
+        -webkit-transition: color 300ms, background-color 300ms;
+        -moz-transition: color 300ms, background-color 300ms;
+        -o-transition: color 300ms, background-color 300ms;
+        transition: color 300ms, background-color 300ms;
+    }
+    
+    a:hover,
+    a:focus {
+        color: #d43133;
+    }
+    
+    a:hover,
+    a:focus {
+        color: #111;
+        text-decoration: none;
+        outline: none;
+    }
+    
+    .leftalign {
+        float: left;
+    }
+    
+    .rightalign {
+        float: right;
+    }
+    
+    .clr {
+        clear: both;
+    }
+    
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header {
+        background: #2f3649 none repeat scroll 0 0;
+        clear: both;
+        padding: 0px 0 50px;
+        font-family: 'open_sansregular';
+    }
+    
+    .logoimg {}
+    
+    .leftpanel {
+        background: #1a202e;
+        float: left;
+        width: 15%;
+    }
+    
+    .rightpanel {
+        float: right;
+        width: 85%;
+    }
+    
+    .navbar-header {
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .navbar-right {
+        float: right;
+    }
+    
+    .navbar-right ul {
+        color: #fff;
+        float: left;
+        font-size: 13px;
+        list-style-type: none;
+        margin: 12px 0 0;
+        padding: 0;
+    }
+    
+    .navbar-right ul li {
+        float: left;
+        padding: 0 15px;
+    }
+    
+    .navbar-right ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .left_sub_section {
+        margin: 0 auto;
+        padding: 35px 0;
+        text-align: center;
+        width: 100%;
+        background: #1f2638;
+        margin-bottom: 6px;
+    }
+    
+    .margn-r-15 {
+        margin-right: 15px;
+    }
+    
+    .left_sub_section_list {
+        background: #1f2638 none repeat scroll 0 0;
+        margin: 0 auto 6px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .btn_red {
+        background: #f17b5f none repeat scroll 0 0;
+        border: medium none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 auto;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    
+    .editplusicon {
+        color: #fff;
+        margin-right: 10px;
+    }
+    
+    .left_sub_section_list ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .iconpanel {
+        float: left;
+        margin-left: 35px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    .descpanel {
+        float: right;
+        width: 120px;
+    }
+    
+    .left_sub_section_list ul li {
+        list-style-type: none;
+        padding: 8px 0;
+    }
+    
+    .left_sub_section_list ul li:hover {
+        background: #16a4fa;
+    }
+    
+    .left_sub_section_list ul li a {
+        color: #63697f;
+        font-size: 13px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .left_sub_section_list ul li a:hover {
+        color: #fff;
+    }
+    
+    .left_sub_section_links {
+        background: #1f2638;
+        margin-bottom: 6px;
+    }
+    
+    .left_sub_section_links ul {
+        margin: 0 0 0 55px;
+        padding: 0;
+    }
+    
+    .left_sub_section_links ul li {
+        list-style-type: disc;
+        padding: 8px 0;
+        text-align: left;
+    }
+    
+    .left_sub_section_links ul li a {
+        color: #63697f;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    
+    .left_sub_section_info {
+        background: #1f2638 none repeat scroll 0 0;
+        float: left;
+        height: 400px;
+    }
+    
+    .left_sub_section_info p {
+        font-size: 12px;
+        color: #63697f;
+    }
+    
+    .left_sub_section_info span {
+        color: #9ab5d3;
+    }
+    
+    .rightpanel {}
+    
+    .rightpanel .browse {
+        background: #eef1f6 none repeat scroll 0 0;
+        border-bottom: 1px solid #cacbe0;
+        color: #5f6062;
+        font-size: 20px;
+        padding: 25px;
+    }
+    
+    .rightpanel_list {
+        background: #eef1f6 none repeat scroll 0 0;
+        border-bottom: 1px solid #cacbe0;
+        padding: 7px 0 40px;
+    }
+    
+    .rightpanel_list ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .rightpanel_list ul li {
+        float: left;
+        list-style-type: none;
+        margin-left: 4px;
+        margin-top: 5px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    
+    .rightpanel_list ul li:hover {
+        background: #9db4d3;
+        color: #fff;
+        border-radius: 11px;
+    }
+    
+    .rightpanel_list ul li a {
+        color: #63697f;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    
+    .rightpanel_list ul li a:hover {
+        color: #fff;
+    }
+    
+    .rightpanel_list input {
+        background-color: #fff;
+        border: 1px solid #cacbe0;
+        border-radius: 15px;
+        float: right;
+        height: 10px;
+        margin-right: 20px;
+        padding: 10px;
+        width: 350px;
+    }
+    
+    .content {
+        padding: 3px;
+    }
+    
+    .scrollbar {
+        overflow-y: scroll;
+    }
+    
+    .description {
+        float: left;
+        padding: 10px;
+    }
+    
+    .description img {
+        height: auto;
+        width: 100%;
+    }
+    
+    .desc-title p {
+        font-size: 12px;
+        margin: 0;
+        color: #757b89
+    }
+    
+    .row {
+        height: 380px;
+        width: 100%;
+    }
+    
+    .desc-title p:first-child {
+        font-size: 15px;
+        color: #505568;
+    }
+    
+    .star i {
+        color: #f6b002;
+        cursor: pointer;
+    }
+    
+    #footer {
+        background: #181e2c none repeat scroll 0 0;
+        clear: both;
+        color: #fff;
+        height: 45px;
+    }
+    
+    .pull-right {
+        float: right;
+    }
+    
+    #footer ul {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #footer ul > li {
+        display: inline-block;
+        padding: 14px 19px 9px 15px;
+    }
+    
+    #footer ul li:last-child {
+        background: #16a4fa;
+    }
+    
+    #footer a {
+        color: #fff;
+    }
+    
+    .searchbox {
+        background: url("../images/img/search.png") no-repeat scroll 330px 0 / 30px auto;
+    }
+    
+    .left_sub_section_list span {
+        display: inline-block;
+        text-align: left;
+        width: 120px;
+    }
+    
+    .icon_align {
+        float: left;
+        margin-left: 40px;
+        margin-right: -21px;
+        margin-top: 5px;
+    }
+    
+    .dropdown {
+        background: #16a4fa none repeat scroll 0 0;
+        float: left;
+        height: 50px;
+        width: 150px;
+    }
+    
+    .dropdown img {
+        height: auto;
+        margin-left: 10px;
+        margin-top: 8px;
+        width: 35px;
+    }
+    
+    .dropdown span {
+        display: block;
+        float: right;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+   

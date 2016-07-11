@@ -1,0 +1,195 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .main-wrapper {
+        background: #eef1f7;
+    }
+    header .logo {
+        padding: 0px 0 0px 10px;
+        a {
+            margin: 10px 0;
+        }
+    }
+   
+    header .logo a, .book-details {
+        float: left;
+    }
+    .fa-search, .fa-bars {
+        padding: 15px;
+        cursor: pointer;
+    }
+    .right-menu {
+        float: none;
+    }
+    .left-sidebar {
+        display: none;
+        .add-book-wrapper {
+            border-top: 1px solid #282f41;
+            padding: 10px 0;
+        }
+        a {
+            display: inline-block;
+            margin: 13px 10px;
+            padding: 0;
+        }
+    }
+    
+    
+    .main-nav li a.active, .main-nav li a:hover {
+        background: none;
+    }
+    .column-3, .column-9, .column-6, header nav, header .user-name, .tab-menu {
+        float: none;
+        width: 100%;
+    }
+    .tab-menu li a {
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+    header .user-name {
+        padding-left: 20px;
+    }
+    header nav {
+        padding: 0 20px;
+        li {
+            padding-left: 10px;
+        }
+    }
+    
+    .history-list li:last-child {
+        margin-bottom: 35px;
+    }
+    .page-title {
+        border-bottom: 0px;
+        h1 {
+            font-size: 16px;
+            padding: 20px 10px;
+        }
+    }
+    
+    .search-fliter-section {
+        border-top: 0px;
+        padding: 0px 10px;
+    }
+    .tab-menu {
+        margin-bottom: 10px;
+    }
+    .book {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        float: left;
+        background: #fff;
+        padding: 5px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+  
+    .mob-clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .book-container {
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .book-wrapper {
+        max-height: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .book-row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .book-img {
+        float: left;
+        width: 25.5%;
+        margin-right: 10px;
+    }
+    .book-name, .book-by-name, .rating {
+        margin: 0 0 10px;
+    }
+    .rating .fa {
+        margin-bottom: 0px;
+    }
+    header nav li {
+        float: none;
+        padding: 0px;
+        &:before {
+            content: "";
+            padding: 0px;
+        }
+    }
+   
+    .hide-xs, .left-sidebar {
+        display: none;
+    }
+    .show-xs {
+        display: block;
+    }
+    .add-book-wrapper {
+        position: relative;
+        top: 268px;
+    }
+    .main-nav {
+        position: relative;
+        top: -67px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .book {
+        width: 28%;
+    }
+    .hide-sm {
+        display: none;
+    }
+    .show-sm, .left-sidebar {
+        display: block !important;
+    }
+    .tab-menu {
+        width: 70%;
+    }
+    .search-warpper {
+        width: 30%;
+    }
+    .page-title h1 {
+        line-height: normal;
+    }
+    .book-wrapper {
+        max-height: 645px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .book {
+        width: 21.3%;
+    }
+    .hide-md {
+        display: none;
+    }
+    .show-md, .left-sidebar {
+        display: block !important;
+    }
+    .tab-menu {
+        width: 70%;
+    }
+    .search-warpper {
+        width: 30%;
+    }
+    .page-title h1 {
+        line-height: normal;
+    }
+    .book-wrapper {
+        max-height: 630px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .hide-lg {
+        display: none;
+    }
+    .show-lg, .left-sidebar {
+        display: block !important;
+    }
+}
